@@ -15,17 +15,25 @@ Backend foi criado com:
  - Spring Boot
  - Spring Validation
  - Spring DevTools
+ - Maven
  
 ## Instalação 
+
+**IMPORTANTE**: Em sistemas Unix (Linux/Mac) é necessário ter o Maven instalado para rodar o comando `mvn`. Para instalar o Maven [acesse aqui](https://maven.apache.org/install.html)
 
 -  Fazer um clone do repositório
 ```shell script
 git clone https://github.com/Jonathan-Sales/avaliacao-totvs.git
 ```
--  Dentro da pasta do projeto, rodar o comando pelo terminal, Powershell ou CMD:
-```shell script
-mvnw spring-boot:run
-```
+-  Dentro da pasta do projeto:
+    - Windows:
+        ```shell script
+        mvnw spring-boot:run
+        ```
+    - Linux/Mac:
+        ```shell script
+        mvn spring-boot:run
+        ```
 -  Fazer a importação no Postman das requisições que estão na pasta `./docs`
  
 ## Endpoints
