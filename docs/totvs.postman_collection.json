@@ -1,0 +1,524 @@
+{
+	"info": {
+		"_postman_id": "46e254fe-f587-4c68-ad6b-e3ec78b3cc7f",
+		"name": "Totvs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pessoa",
+			"item": [
+				{
+					"name": "Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/person",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person"
+							]
+						},
+						"description": "List of persons"
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/person/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person",
+								"1"
+							]
+						},
+						"description": "List of persons"
+					},
+					"response": []
+				},
+				{
+					"name": "Criar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Jonathan Sales\",\r\n    \"tradingName\": \"MUITO BOM\",\r\n    \"cpfCnpj\": \"111111111111\",\r\n    \"occupation\": \"Desenvolvedor\",\r\n    \"salary\": 2500,\r\n    \"birthday\": \"1991-12-06\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/person",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person"
+							]
+						},
+						"description": "Create a new Person"
+					},
+					"response": []
+				},
+				{
+					"name": "Criar - Pessoa Completo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Jonathan Sales\",\r\n    \"tradingName\": \"MUITO BOM\",\r\n    \"cpfCnpj\": \"00727937243\",\r\n    \"occupation\": \"Desenvolvedor\",\r\n    \"salary\": \"2500\",\r\n    \"birthday\": \"1991-12-06\",\r\n    \"addresses\": [\r\n        {\r\n            \"addressType\": \"Residencial\",\r\n            \"type\": \"Rua\",\r\n            \"name\": \"Manoel Barata\",\r\n            \"number\": \"865\",\r\n            \"complement\": \"AP. 104B\",\r\n            \"zipCode\": \"66810100\",\r\n            \"neighborhood\": \"Cruzeiro(Icoaraci)\",\r\n            \"city\": \"Belém\",\r\n            \"state\": \"PA\",\r\n            \"country\": \"Brasil\"\r\n        },\r\n        {\r\n            \"addressType\": \"Residencial\",\r\n            \"type\": \"Rua\",\r\n            \"name\": \"Manoel Barata\",\r\n            \"number\": \"865\",\r\n            \"complement\": \"AP. 104B\",\r\n            \"zipCode\": \"66810100\",\r\n            \"neighborhood\": \"Cruzeiro(Icoaraci)\",\r\n            \"city\": \"Belém\",\r\n            \"state\": \"PA\",\r\n            \"country\": \"Brasil\"\r\n        },\r\n        {\r\n            \"addressType\": \"Residencial\",\r\n            \"type\": \"Rua\",\r\n            \"name\": \"Manoel Barata\",\r\n            \"number\": \"865\",\r\n            \"complement\": \"AP. 104B\",\r\n            \"zipCode\": \"66810100\",\r\n            \"neighborhood\": \"Cruzeiro(Icoaraci)\",\r\n            \"city\": \"Belém\",\r\n            \"state\": \"PA\",\r\n            \"country\": \"Brasil\"\r\n        }\r\n    ],\r\n    \"phones\": [\r\n        {\r\n            \"countryCode\": \"55\",\r\n            \"cityCode\": \"91\",\r\n            \"number\": \"991482227\",\r\n            \"type\": \"celphone\"\r\n        }\r\n    ],\r\n    \"dependents\": [\r\n        {\r\n            \"name\": \"Algum dependente\",\r\n            \"type\": \"Someone\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/person",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person"
+							]
+						},
+						"description": "Create a new Person"
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": 1,\r\n\t\"name\": \"Jonathan Sales\",\r\n\t\"tradingName\": \"\",\r\n\t\"cpfCnpj\": \"00727937243\",\r\n\t\"occupation\": \"Desenvolvedor\",\r\n\t\"salary\": \"5000\",\r\n\t\"birthday\": \"1991-12-06\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/person/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person",
+								"1"
+							]
+						},
+						"description": "Update a person"
+					},
+					"response": []
+				},
+				{
+					"name": "Apagar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/person/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person",
+								"1"
+							]
+						},
+						"description": "Delete a person"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Endereço",
+			"item": [
+				{
+					"name": "Listar por personId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/person/1/address",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person",
+								"1",
+								"address"
+							]
+						},
+						"description": "List of persons"
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/address/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"address",
+								"1"
+							]
+						},
+						"description": "List of persons"
+					},
+					"response": []
+				},
+				{
+					"name": "Criar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"addressType\": \"Residencial\",\r\n\t\"type\": \"Rua\",\r\n\t\"name\": \"Manoel Barata\",\r\n\t\"number\": \"865\",\r\n\t\"complement\": \"AP. 104B\",\r\n\t\"zipCode\": \"66810100\",\r\n\t\"neighborhood\": \"Cruzeiro(Icoaraci)\",\r\n\t\"city\": \"Belém\",\r\n\t\"state\": \"PA\",\r\n\t\"country\": \"Brasil\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/person/1/address",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person",
+								"1",
+								"address"
+							]
+						},
+						"description": "Create a new Person"
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": 1,\r\n\t\"addressType\": \"Comercial\",\r\n\t\"type\": \"Rua\",\r\n\t\"name\": \"Manoel Barata\",\r\n\t\"number\": \"865\",\r\n\t\"complement\": \"AP. 104B\",\r\n\t\"zipCode\": \"66810100\",\r\n\t\"neighborhood\": \"Cruzeiro(Icoaraci)\",\r\n\t\"city\": \"Belém\",\r\n\t\"state\": \"PA\",\r\n\t\"country\": \"Brasil\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/address/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"address",
+								"1"
+							]
+						},
+						"description": "Update a person"
+					},
+					"response": []
+				},
+				{
+					"name": "Apagar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/address/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"address",
+								"1"
+							]
+						},
+						"description": "Delete a person"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Telefone",
+			"item": [
+				{
+					"name": "Listar por personId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/person/1/phone",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person",
+								"1",
+								"phone"
+							]
+						},
+						"description": "List of persons"
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/phone/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"phone",
+								"1"
+							]
+						},
+						"description": "List of persons"
+					},
+					"response": []
+				},
+				{
+					"name": "Criar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"countryCode\": \"55\",\r\n\t\"cityCode\": \"91\",\r\n\t\"number\": \"991482227\",\r\n\t\"type\": \"celphone\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/person/1/phone",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person",
+								"1",
+								"phone"
+							]
+						},
+						"description": "Create a new Person"
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": 6,\r\n\t\"countryCode\": \"55\",\r\n\t\"cityCode\": \"91\",\r\n\t\"number\": \"991482227\",\r\n\t\"type\": \"mobile\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/phone/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"phone",
+								"1"
+							]
+						},
+						"description": "Update a person"
+					},
+					"response": []
+				},
+				{
+					"name": "Apagar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/phone/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"phone",
+								"1"
+							]
+						},
+						"description": "Delete a person"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Dependente",
+			"item": [
+				{
+					"name": "Listar por personId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/person/1/dependent",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person",
+								"1",
+								"dependent"
+							]
+						},
+						"description": "List of persons"
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/dependent/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"dependent",
+								"1"
+							]
+						},
+						"description": "List of persons"
+					},
+					"response": []
+				},
+				{
+					"name": "Criar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Dependente\",\r\n  \"type\": \"Parentesco\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/person/1/dependent",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"person",
+								"1",
+								"dependent"
+							]
+						},
+						"description": "Create a new Person"
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"name\": \"Nome do dependente\",\r\n  \"type\": \"Principal\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/dependent/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"dependent",
+								"1"
+							]
+						},
+						"description": "Update a person"
+					},
+					"response": []
+				},
+				{
+					"name": "Apagar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/dependent/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"dependent",
+								"1"
+							]
+						},
+						"description": "Delete a person"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"variable": [
+		{
+			"id": "7cdb85c0-c7e1-45a1-807f-035685954575",
+			"key": "baseUrl",
+			"value": "http://localhost:8080"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
