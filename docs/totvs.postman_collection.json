@@ -52,7 +52,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Jonathan Sales\",\r\n    \"tradingName\": \"MUITO BOM\",\r\n    \"cpfCnpj\": \"111111111111\",\r\n    \"occupation\": \"Desenvolvedor\",\r\n    \"salary\": 2500,\r\n    \"birthday\": \"1991-12-06\"\r\n}",
+							"raw": "{\r\n    \"name\": \"...\",\r\n    \"tradingName\": \"...\",\r\n    \"cpfCnpj\": \"...\",\r\n    \"occupation\": \"...r\",\r\n    \"salary\": 0,\r\n    \"birthday\": \"...\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -79,7 +79,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Jonathan Sales\",\r\n    \"tradingName\": \"MUITO BOM\",\r\n    \"cpfCnpj\": \"00727937243\",\r\n    \"occupation\": \"Desenvolvedor\",\r\n    \"salary\": \"2500\",\r\n    \"birthday\": \"1991-12-06\",\r\n    \"addresses\": [\r\n        {\r\n            \"addressType\": \"Residencial\",\r\n            \"type\": \"Rua\",\r\n            \"name\": \"Manoel Barata\",\r\n            \"number\": \"865\",\r\n            \"complement\": \"AP. 104B\",\r\n            \"zipCode\": \"66810100\",\r\n            \"neighborhood\": \"Cruzeiro(Icoaraci)\",\r\n            \"city\": \"Belém\",\r\n            \"state\": \"PA\",\r\n            \"country\": \"Brasil\"\r\n        },\r\n        {\r\n            \"addressType\": \"Residencial\",\r\n            \"type\": \"Rua\",\r\n            \"name\": \"Manoel Barata\",\r\n            \"number\": \"865\",\r\n            \"complement\": \"AP. 104B\",\r\n            \"zipCode\": \"66810100\",\r\n            \"neighborhood\": \"Cruzeiro(Icoaraci)\",\r\n            \"city\": \"Belém\",\r\n            \"state\": \"PA\",\r\n            \"country\": \"Brasil\"\r\n        },\r\n        {\r\n            \"addressType\": \"Residencial\",\r\n            \"type\": \"Rua\",\r\n            \"name\": \"Manoel Barata\",\r\n            \"number\": \"865\",\r\n            \"complement\": \"AP. 104B\",\r\n            \"zipCode\": \"66810100\",\r\n            \"neighborhood\": \"Cruzeiro(Icoaraci)\",\r\n            \"city\": \"Belém\",\r\n            \"state\": \"PA\",\r\n            \"country\": \"Brasil\"\r\n        }\r\n    ],\r\n    \"phones\": [\r\n        {\r\n            \"countryCode\": \"55\",\r\n            \"cityCode\": \"91\",\r\n            \"number\": \"991482227\",\r\n            \"type\": \"celphone\"\r\n        }\r\n    ],\r\n    \"dependents\": [\r\n        {\r\n            \"name\": \"Algum dependente\",\r\n            \"type\": \"Someone\"\r\n        }\r\n    ]\r\n}",
+							"raw": "{\r\n    \"name\": \"...\",\r\n    \"tradingName\": \"...\",\r\n    \"cpfCnpj\": \"...\",\r\n    \"occupation\": \"...\",\r\n    \"salary\": 0.0,\r\n    \"birthday\": \"...\",\r\n    \"addresses\": [\r\n        {\r\n            \"addressType\": \"...\",\r\n            \"type\": \"...\",\r\n            \"name\": \"...\",\r\n            \"number\": \"...\",\r\n            \"complement\": \"...\",\r\n            \"zipCode\": \"...\",\r\n            \"neighborhood\": \"...\",\r\n            \"city\": \"...\",\r\n            \"state\": \"...\",\r\n            \"country\": \"...\"\r\n        }\r\n    ],\r\n    \"phones\": [\r\n        {\r\n            \"countryCode\": \"...\",\r\n            \"cityCode\": \"...\",\r\n            \"number\": \"...\",\r\n            \"type\": \"...\"\r\n        }\r\n    ],\r\n    \"dependents\": [\r\n        {\r\n            \"name\": \"...\",\r\n            \"type\": \"...\"\r\n        }\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -106,7 +106,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"id\": 1,\r\n\t\"name\": \"Jonathan Sales\",\r\n\t\"tradingName\": \"\",\r\n\t\"cpfCnpj\": \"00727937243\",\r\n\t\"occupation\": \"Desenvolvedor\",\r\n\t\"salary\": \"5000\",\r\n\t\"birthday\": \"1991-12-06\"\r\n}",
+							"raw": "{\r\n\t\"name\": \"...\",\r\n\t\"tradingName\": \"...\",\r\n\t\"cpfCnpj\": \"...\",\r\n\t\"occupation\": \"...\",\r\n\t\"salary\": 0,\r\n\t\"birthday\": \"...\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -198,7 +198,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"addressType\": \"Residencial\",\r\n\t\"type\": \"Rua\",\r\n\t\"name\": \"Manoel Barata\",\r\n\t\"number\": \"865\",\r\n\t\"complement\": \"AP. 104B\",\r\n\t\"zipCode\": \"66810100\",\r\n\t\"neighborhood\": \"Cruzeiro(Icoaraci)\",\r\n\t\"city\": \"Belém\",\r\n\t\"state\": \"PA\",\r\n\t\"country\": \"Brasil\"\r\n}",
+							"raw": "{\r\n\t\"addressType\": \"...\",\r\n\t\"type\": \"...\",\r\n\t\"name\": \"...\",\r\n\t\"number\": \"...\",\r\n\t\"complement\": \"...\",\r\n\t\"zipCode\": \"...\",\r\n\t\"neighborhood\": \"...\",\r\n\t\"city\": \"...\",\r\n\t\"state\": \"...\",\r\n\t\"country\": \"...\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -227,7 +227,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"id\": 1,\r\n\t\"addressType\": \"Comercial\",\r\n\t\"type\": \"Rua\",\r\n\t\"name\": \"Manoel Barata\",\r\n\t\"number\": \"865\",\r\n\t\"complement\": \"AP. 104B\",\r\n\t\"zipCode\": \"66810100\",\r\n\t\"neighborhood\": \"Cruzeiro(Icoaraci)\",\r\n\t\"city\": \"Belém\",\r\n\t\"state\": \"PA\",\r\n\t\"country\": \"Brasil\"\r\n}",
+							"raw": "{\r\n\t\"addressType\": \"...\",\r\n\t\"type\": \"...\",\r\n\t\"name\": \"...\",\r\n\t\"number\": \"...\",\r\n\t\"complement\": \"...\",\r\n\t\"zipCode\": \"...\",\r\n\t\"neighborhood\": \"...\",\r\n\t\"city\": \"...\",\r\n\t\"state\": \"...\",\r\n\t\"country\": \"...\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -319,7 +319,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"countryCode\": \"55\",\r\n\t\"cityCode\": \"91\",\r\n\t\"number\": \"991482227\",\r\n\t\"type\": \"celphone\"\r\n}",
+							"raw": "{\r\n\t\"countryCode\": \"...\",\r\n\t\"cityCode\": \"...\",\r\n\t\"number\": \"...\",\r\n\t\"type\": \"...\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -348,7 +348,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"id\": 6,\r\n\t\"countryCode\": \"55\",\r\n\t\"cityCode\": \"91\",\r\n\t\"number\": \"991482227\",\r\n\t\"type\": \"mobile\"\r\n}",
+							"raw": "{\r\n\t\"countryCode\": \"...\",\r\n\t\"cityCode\": \"...\",\r\n\t\"number\": \"...\",\r\n\t\"type\": \"...\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -440,7 +440,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"name\": \"Dependente\",\r\n  \"type\": \"Parentesco\"\r\n}",
+							"raw": "{\r\n  \"name\": \"...\",\r\n  \"type\": \"...\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -469,7 +469,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 1,\r\n  \"name\": \"Nome do dependente\",\r\n  \"type\": \"Principal\"\r\n}",
+							"raw": "{\r\n  \"name\": \"...\",\r\n  \"type\": \"...\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -515,7 +515,7 @@
 	],
 	"variable": [
 		{
-			"id": "7cdb85c0-c7e1-45a1-807f-035685954575",
+			"id": "6089e60a-e092-4e29-bc97-3076e3816acc",
 			"key": "baseUrl",
 			"value": "http://localhost:8080"
 		}
